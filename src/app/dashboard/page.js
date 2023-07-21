@@ -14,7 +14,6 @@ export default function Dashboard() {
         setState={setfirst}
       />
       <Button variant="secondary">Button</Button>
-
       <pre>{first}</pre>
     </main>
   );

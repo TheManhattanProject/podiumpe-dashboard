@@ -82,6 +82,25 @@
   }
 }
 
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/public/fonts/Poppins-Medium.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Formula';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/public/fonts/Formula1-Wide_web_0.ttf');
+}
+
+.x {
+  font-family: 'Formula1Wide';
+}
 // @tailwind base;
 // @tailwind components;
 // @tailwind utilities;
@@ -109,3 +128,5 @@
 //     )
 //     rgb(var(--background-start-rgb));
 // }
+
+/* reset */

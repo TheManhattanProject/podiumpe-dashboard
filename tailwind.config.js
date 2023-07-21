@@ -16,6 +16,10 @@ module.exports = {
         '2xl': '1400px',
       },
     },
+    fontFamily: {
+      Formula: 'Formula , sans-serif',
+      Poppins: 'Poppins, sans-serif',
+    },
     extend: {
       colors: {
         border: 'hsl(var(--border))',
@@ -50,6 +54,14 @@ module.exports = {
         card: {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
+        },
+        /* custom */
+        design: {
+          base: 'rgb(25, 25, 25)',
+          secondaryBase: 'rgba(37, 37, 37, 1)',
+          text: 'rgba(250, 250, 250, 1)',
+          secondaryText: '#B8B8B8',
+          thirdText: '#717171',
         },
       },
       borderRadius: {

@@ -1,0 +1,22 @@
+@mixin line-clamp($number) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $number;
+  -webkit-box-orient: vertical;
+}
+@mixin rowMix($gap, $align: center, $justify: center, $padding) {
+  display: flex;
+  flex-direction: row;
+  align-items: $align;
+  justify-content: $justify;
+  padding: $padding;
+  gap: $gap;
+}
+@mixin columnMix($gap, $align: center, $justify: center, $padding) {
+  display: flex;
+  flex-direction: column;
+  align-items: $align;
+  justify-content: $justify;
+  padding: $padding;
+  gap: $gap;
+}
